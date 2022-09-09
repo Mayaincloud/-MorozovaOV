@@ -17,6 +17,7 @@ if (m > n)
 }
 
 int sumItems = SumItems(m, n, temp = 0);
+Console.Write($"Сумма четных чисел в промежутке от {m} до {n}: {sumItems}");
 
 int SumItems(int m, int n, int sum)
 {
@@ -31,6 +32,6 @@ int SumItems(int m, int n, int sum)
     }
     return sum;
 }
-Console.Write($"Сумма четных чисел в промежутке от {m} до {n}: {sumItems}");
+
 
 
